@@ -96,7 +96,7 @@ nav {
     margin-bottom: 25px;
 }
 
-section {
+#top-right {
     flex-direction: column;
     width: 100%;
 }
