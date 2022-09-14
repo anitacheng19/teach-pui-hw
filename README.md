@@ -1,5 +1,5 @@
 # PUI homework
 
-Deployed website: `add the URL to your deployed website`
+Deployed website: https://anitacheng19.github.io/teach-pui-hw/
 
-Repository link: `add the URL to this repository`
+Repository link: https://github.com/anitacheng19/teach-pui-hw
