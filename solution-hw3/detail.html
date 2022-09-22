@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Original Cinnamon Roll Detail</title>
+    <link rel="stylesheet" media="all" type="text/css" href="css/styles.css" />
+    <script src="js/scripts.js " defer></script>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href=index.html>
+                <img src="HW3/logo/logo-01.svg" width="400" alt="logo" />
+            </a>
+        </div>
+        <div id="top-right">
+            <nav>
+                <h1>
+                    <a href=index.html><span class="highlighted">PRODUCTS</span></a>
+                </h1>
+                <h3>
+                    <a href=cart.html>CART</a>
+                </h3>
+            </nav>
+            <hr>
+            <div id="title">
+                <h4>Original cinnamon roll</h4>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="item">
+            <img class="food-image" src="HW3/products/original-cinnamon-roll.jpg " width="625" alt="original cinnamon roll" />
+            <div id="item-description">
+                <div id="item-caption">
+                    <p>Customize our delicious, hand-made cinammon roll to your liking!</p>
+                </div>
+                <div class="dropdown">
+                    <label>Glazing:</label><br>
+                    <select id="glazingOptions" onchange="priceChange()">
+                    </select>
+                </div>
+                <div class="dropdown">
+                    <label>Pack size:</label><br>
+                    <select id="packSizes" onchange="priceChange()">
+                    </select>
+                </div>
+                <div class="add-cart ">
+                    <h5 id="price">$2.49</h5>
+
+                    <div class="add-box ">
+                        <h5>Add to Cart</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
