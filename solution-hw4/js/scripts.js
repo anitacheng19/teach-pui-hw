@@ -98,5 +98,5 @@ class Roll {
 function addToCart() {
     const addedRoll = new Roll(chosenRoll, glazingArray[glazeDrop.selectedIndex].name, packArray[packDrop.selectedIndex].name, rolls[chosenRoll].basePrice);
     cart.push(addedRoll);
-    console.log(JSON.stringify(cart))
+    console.log(JSON.stringify(cart));
 }
