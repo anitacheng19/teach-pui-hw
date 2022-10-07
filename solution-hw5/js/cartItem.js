@@ -42,13 +42,12 @@ function createElement(cartItem) {
     btnDelete.addEventListener('click', () => {
         deleteItem(cartItem);
         const cartPrice = document.getElementById("cart-price");
-        cartPrice.innerText = '$' + checkoutPrice.toFixed(2);
+        if (cart.length == 0) {
+            cartPrice.innerText = '$0.00';
+        } else {
+            cartPrice.innerText = '$' + checkoutPrice.toFixed(2);
+        }
     });
-
-    if (cart.length == 0) {
-        const cartPrice = document.getElementById("cart-price");
-        cartPrice.innerText = '$0.00';
-    }
 
     // add the item clone to the DOM
     const cartElement = document.querySelector('#cart');
