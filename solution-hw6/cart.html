@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cart</title>
+    <link rel="stylesheet" media="all" type="text/css" href="css/styles.css">
+    <script src="js/rollsData.js " defer></script>
+    <script src="js/cartItem.js " defer></script>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href=index.html>
+                <img src="HW6/logo/logo-01.svg" width="400" alt="logo">
+            </a>
+        </div>
+        <div id="top-right">
+            <nav>
+                <h1>
+                    <a href=index.html>PRODUCTS</a>
+                </h1>
+                <h1>
+                    <a href=cart.html><span class="highlighted">CART</span></a>
+                </h1>
+            </nav>
+            <hr>
+            <div id="title">
+                <h4>Shopping Cart</h4>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="cart">
+            <template id="cart-item-template">
+            <div class="cart-item">
+                <div class="notecard-left">
+                    <div class="cart-graphic">
+                        <img class="cart-image" src="HW6/products/original-cinnamon-roll.jpg " width="125" alt="original cinnamon roll">
+                        <h6 class="cart-remove">Remove</h6>
+                    </div>
+                </div>
+                <div class="cart-description">
+                    <h3 class="roll-type"></h3>
+                    <h3 class="glazing"></h3>
+                    <h3 class="pack-size"></h3>
+                </div>
+                <h3 class="item-price"></h3>
+            </div> 
+            </template>
+            <hr>
+            <div id="checkout">
+                <h3>Total</h3>
+                <h3 id="cart-price"></h3>
+            </div>
+        </div>
+        <div class="check-box">
+            <h5>Checkout</h5>
+        </div>
+    </main>
+</body>
+
+</html>

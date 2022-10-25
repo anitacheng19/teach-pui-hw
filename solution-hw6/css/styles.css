@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    margin-top: 30px;
+    font-size: 130%;
+}
+
+#logo {
+    margin: 30px;
+}
+
+hr {
+    width: 100%;
+    margin-bottom: 25px;
+    border-top: 3px solid #000000;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: black;
+    margin: 0px;
+}
+
+h4 {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 130%;
+    font-weight: lighter;
+}
+
+h5 {
+    margin: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 110%;
+}
+
+h6 {
+    margin: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 0;
+    font-size: 10%;
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+p {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+#title {
+    margin-top: 75px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 160%;
+}
+
+#roll-title {
+    margin-top: 75px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 210%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.highlighted {
+    background-color: yellow;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: flex-end;
+    margin-right: 80px;
+    font-size: 115%;
+    margin-bottom: 25px;
+}
+
+#top-right {
+    flex-direction: column;
+    width: 100%;
+}
+
+body {
+    border: solid black 0.5px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.product:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.product {
+    width: 25%;
+    padding: 8px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    display: flex;
+}
+
+.image-name {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    font-size: 115%;
+    margin-bottom: 3px;
+}
+
+.image-description {
+    margin-top: 7px;
+    text-align: left;
+}
+
+.food-image {
+    border: solid black 3px;
+}
+
+#detail-image {
+    border: solid black 3px;
+}
+
+.cart-image {
+    border: solid black 3px;
+}
+
+.item {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 110px;
+}
+
+#item-caption {
+    font-size: 105%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+#item-description {
+    width: 30%;
+    font-size: 110%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cart {
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+    margin-left: auto;
+    margin-right: 0px;
+    padding-top: 20px;
+}
+
+.cart-graphic {
+    margin-right: 30px;
+}
+
+.cart-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    padding-top: 10px;
+}
+
+.item-price {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 70px;
+    margin-bottom: 20px;
+}
+
+select {
+    display: block;
+    padding: 7px;
+    width: 100%;
+    font-size: 105%;
+    border: 3px solid black;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-family: sans-serif;
+}
+
+.dropdown {
+    padding-top: 25px;
+}
+
+#checkout {
+    display: flex;
+    gap: 385px;
+    justify-content: flex-end;
+    margin-right: 70px;
+}
+
+.add-cart {
+    margin-top: 80px;
+    display: flex;
+    padding-left: 15px;
+    align-items: baseline;
+}
+
+#add-box {
+    border: 3px solid black;
+    margin-top: 50px;
+    background-color: yellow;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.check-box {
+    border: 3px solid black;
+    margin-top: 40px;
+    background-color: yellow;
+    width: 23%;
+    margin-left: auto;
+    margin-right: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+}
