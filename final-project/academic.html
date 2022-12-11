@@ -20,7 +20,7 @@
             </h3>
             <div class="vl"></div>
             <h3>
-                <a href=academic.html><span class="highlighted">Academics</span></a>
+                <a href=academic.html><span class="highlightedl">Academics</span></a>
             </h3>
             <div class="vl"></div>
             <h3>
@@ -32,10 +32,13 @@
         <div class="header">
             <h1>Projects</h1>
         </div>
-        <section>
-            <div class="project-description">
-                <div class="project-text">
-                    <div id = "name">
+        <div class="projects">
+            <div class ="project">
+                <div class="project-pic">
+                    <img src="images/malloc.jpeg" width="500" alt="malloc pic">
+                </div>
+                <div class="project-description">
+                    <div id="name">
                         Malloc Implementation
                     </div>
                     <div id="subname">
@@ -48,114 +51,23 @@
                         </li>
                         <li>Implemented computer system principles such as memory alignment 
                             and padding to reduce the size of metadata to maximize my allocator’s 
-                            space ultiation and throughput
-                        </li>
-                    </div>
-                </div>
-                <div id="image">
-                    <img src="images/malloc.jpeg" width="400" alt="malloc pic">
-                </div>
-            </div>
-            <div id="content-descriptions">
-                <div 
-                    class="content-description"
-                    data-name="Malloc Implementation"
-                    data-subname="Introduction to Computer Systems Assignment"
-                    data-description="Created segregated doubly linked lists to 
-                    search through arrays of memory blocks and optimized this process 
-                    to achieve 96% efficiency compared to the systems level implementation"
-                    data-image="./images/malloc.jpeg"
-                    data-alt="malloc diagram pic">
-                </div>
-                <div 
-                    class="content-description"
-                    data-name="Information Systems Analyst + Consultant"
-                    data-subname="Milieux Database Project"
-                    data-description="Developed skills in conceptual data modeling, logical database 
-                    design, database implementation and descriptive analytics using 
-                    MySQL to support managerial decision making"
-                    data-image="./images/ISproject.png"
-                    data-alt="ERD IS project diagram pic">
-                </div>
-                <div 
-                    class="content-description"
-                    data-name="Value Town"
-                    data-subname="Fundamentals of Programming Term Project"
-                    data-description="Created an app using Python, Pillow, Tkinter, Selenium, 
-                    Beautiful Soup, Pandas, andNumpy that will walk users 
-                    through the step-by-step process of performing a discounted 
-                    cash flow analysis using user input values"
-                    data-image = "./images/valueTown.png"
-                    data-alt="valueTown pic">
-                </div>
-            </div>
-                
-                    <!-- <div class="name">
-                        Malloc Implementation
-                    </div>
-                    <div class="sub-name">
-                        Introduction to Computer Systems Assignment
-                    </div>
-                    <div class="description">
-                        <li>Created segregated doubly linked lists to search through 
-                            arrays of memory blocks and optimized this process to achieve 
-                            96% efficiency compared to the systems level implementation
-                        </li>
-                        <li>Implemented computer system principles such as memory alignment 
-                            and padding to reduce the size of metadata to maximize my allocator’s 
-                            space ultization and throughput
-                        </li>
-                    </div> -->
-                <!-- <div class="project-pics">
-                    <div class="project-pic">
-                        <img src="images/malloc.jpeg" width="400" alt="malloc pic">
-                    </div>
-                    <div class="project-pic">
-                        <img src="images/ISproject.png" width="400" alt="IS project pic">
-                    </div>
-                    <div class="project-pic">
-                        <img src="images/valueTown.png" width="400" alt="value town pic">
-                    </div>
-                </div> -->
-            <!-- </div> -->
-        </section>
-        <!-- --
-        <div class="projects">
-            <div class="project">
-                <div class="project-pic">
-                    <img src="images/malloc.jpeg" width="400" alt="malloc pic">
-                </div>
-                <div class="project-description">
-                    <div class="name">
-                        Malloc Implementation
-                    </div>
-                    <div class="sub-name">
-                        Introduction to Computer Systems Assignment
-                    </div>
-                    <div class="description">
-                        <li>Created segregated doubly linked lists to search through 
-                            arrays of memory blocks and optimized this process to achieve 
-                            96% efficiency compared to the systems level implementation
-                        </li>
-                        <li>Implemented computer system principles such as memory alignment 
-                            and padding to reduce the size of metadata to maximize my allocator’s 
                             space ultization and throughput
                         </li>
                     </div>
                 </div>
             </div>
-            <div class="project">
+            <div class="project" id = "left">
                 <div class="project-pic">
-                    <img src="images/ISproject.png" width="400" alt="IS project pic">
+                    <img src="images/ISproject.png" width="500" alt="IS project pic">
                 </div>
                 <div class="project-description">
-                    <div class="name">
+                    <div id="name">
                         Information Systems Analyst + Consultant
                     </div>
-                    <div class="sub-name">
+                    <div id="subname">
                         Milieux Database Project
                     </div>
-                    <div class="description">
+                    <div id="description">
                         <li>Developed skills in conceptual data modeling, logical database 
                             design, database implementation and descriptive analytics using 
                             MySQL to support managerial decision making
@@ -170,16 +82,16 @@
             </div>
             <div class="project">
                 <div class="project-pic">
-                    <img src="images/valueTown.png" width="400" alt="value town pic">
+                    <img src="images/valueTown.png" width="500" alt="value town pic">
                 </div>
                 <div class="project-description">
-                    <div class="name">
+                    <div id="name">
                         Value Town
                     </div>
-                    <div class="sub-name">
+                    <div id="subname">
                         Fundamentals of Programming Term Project
                     </div>
-                    <div class="description">
+                    <div id="description">
                         <li>Created an app using Python, Pillow, Tkinter, Selenium, 
                             Beautiful Soup, Pandas, andNumpy that will walk users 
                             through the step-by-step process of performing a discounted 
@@ -188,13 +100,13 @@
                         <li>Guides user inputs by educating users on different algorithmic 
                             considerations and definitions of values
                         </li>
-                        <li>Tells the user ultimately whether the stock the user is ?
+                        <li>Tells the user ultimately whether the stock the user
                             interested in is worth investing in or not
                         </li>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
     </main>
 </body>
 </html>
