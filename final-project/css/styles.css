@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    background-color: rgb(248, 249, 250);
+    background-color: rgb(249, 251, 252);
 }
 
 body {
@@ -26,8 +26,9 @@ a {
 }
 
 .highlighted {
-    color: rgb(233, 62, 5);
+    color: rgb(227, 85, 2);
     font-weight: 600;
+    font-size: 150%;
 }
 
 nav {
